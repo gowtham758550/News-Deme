@@ -5,7 +5,7 @@
 <img src="https://img.shields.io/badge/Powered by-NEWS API-red.svg">
 <img src="https://img.shields.io/badge/Version-0.1-yellow.svg">
 <br>
-Flask news web application using NEWS API. 
+Flask web application powered by NEWS API. 
 </p>
 
 ![](https://github.com/gowtham758550/News-Deme/blob/main/Demo/collage.png ) 
