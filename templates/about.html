@@ -4,12 +4,13 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
    <!-- Custom Styles -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@500&display=swap" rel="stylesheet"> 
 
-    <title>News Deme Contact</title>
+    <title>News Deme About</title>
   </head>
   <body>
 <nav class="navbar navbar-expand-md">
@@ -27,7 +28,11 @@
       </li>
       <li class="nav-item">
         <a class="nav-link" href="/about">About me</a>
-      </li>
+      </li>&nbsp;&nbsp;
+      <form action="{{ url_for('search') }}", method="post">
+        <input type="text" name="searchBar" placeholder="Search news here">
+        <button>Search</button>
+      </form>
     </ul>
   </div>
 </nav>
