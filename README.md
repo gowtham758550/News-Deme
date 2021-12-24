@@ -12,5 +12,3 @@ Flask web application powered by NEWS API.
 
 Click <a href="https://gowtham758550.pythonanywhere.com" target="_blank">here</a> for live demo. 
 
-## Support me with some 💸
-* [Buy me a coffee](https://www.buymeacoffee.com/gowtham758550) 
